@@ -3,7 +3,7 @@
     // Included URL: "https://raw.githubusercontent.com/shivanishah269/risc-v-core/master/FPGA_Implementation/riscv_shell_lib.tlv"// Included URL: "https://raw.githubusercontent.com/stevehoover/warp-v_includes/2d6d36baa4d2bc62321f982f78c8fe1456641a43/risc-v_defs.tlv"
    
    module core(input clk, input reset, output reg [7:0] out);
-`include "mythcore_test_gen.v"
+`include "riscv_gen.v"
 generate //_\TLV
 // /====================\
    // | Sum 1 to 9 Program |
